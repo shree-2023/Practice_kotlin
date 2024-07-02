@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:label="@string/app_name"
+        android:roundIcon="@android:drawable/btn_star_big_off"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Prcatice1"
+        tools:targetApi="31">
+        <activity
+            android:name=".ListViewP2"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListViewP1"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Viewbinding"
+            android:exported="false" />
+        <activity
+            android:name=".AlertBox"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".SignIn"
+            android:exported="false" />
+        <activity
+            android:name=".SpashScreen"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListOfLangauges"
+            android:exported="false" />
+        <activity
+            android:name=".MyLanguages"
+            android:exported="false" />
+        <activity
+            android:name=".BlockChain"
+            android:exported="false" />
+        <activity
+            android:name=".IOS"
+            android:exported="false" />
+        <activity
+            android:name=".IOT"
+            android:exported="false" />
+        <activity
+            android:name=".ML"
+            android:exported="false" />
+        <activity
+            android:name=".Web"
+            android:exported="false" />
+        <activity
+            android:name=".Android"
+            android:exported="false" />
+        <activity
+            android:name=".Screen2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

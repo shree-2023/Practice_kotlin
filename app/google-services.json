@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "267911076678",
+    "project_id": "prcatice1",
+    "storage_bucket": "prcatice1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267911076678:android:75c2b2b4d224c7edb06347",
+        "android_client_info": {
+          "package_name": "com.example.prcatice1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg1usR7MzWg644cRhsXdU00HyOgczkj0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
